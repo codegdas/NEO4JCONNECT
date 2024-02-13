@@ -3,10 +3,10 @@ from neo4j import GraphDatabase
 
 app = Flask(__name__)
 
-uri = "bolt://54.196.82.220:7687"
+uri = "bolt://3.92.205.124:7687"
 # Neo4j connection details
 username = "neo4j"
-password = "AdminGanesh"
+password = "neo4j"
 
 # Neo4j driver
 driver = GraphDatabase.driver(uri, auth=(username, password))
